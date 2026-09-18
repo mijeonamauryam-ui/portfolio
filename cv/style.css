@@ -1,0 +1,38 @@
+/* Personnalisation de la couleur de fond du corp de la page */
+body {
+    background-color: #86caca;
+}
+
+/* Personnalisation des titres de sections : couleur de fond et police */
+h2 {
+    background-color: #dceedf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Concerve les proportions de l'image en responsive */
+.photo {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Soulignement de la description du profil et des établissements */
+.lead, .etablissement {
+    text-decoration: underline;
+}
+
+/* Personnalisation de la couleur de fond de la colonne de gauche afin de la différencier de la colonne de droite */
+.bg-left-column {
+    background-color: white;
+}
+
+/* Personnalisation des liens avec une couleur de police blanche :
+   version anglaise du CV, adresse mail, téléphone, GitHub et LinkedIn */
+a {
+    color: white;
+}
+
+/* Personnalisation du bandeau en haut du cv et du pied de page: couleur de fond */
+address,
+footer {
+    background-color: dimgrey;
+}
